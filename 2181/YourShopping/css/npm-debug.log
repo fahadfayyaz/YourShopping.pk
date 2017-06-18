@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'animate.css' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.4
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData animate.css
+8 silly fetchOtherPackageData animate.css
+9 silly cache add args [ 'animate.css', null ]
+10 verbose cache add spec animate.css
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'animate.css',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: 'animate.css',
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'animate.css',
+11 silly cache add   spec: 'C:\\Users\\Fahad\\Desktop\\iictproject\\css\\animate.css',
+11 silly cache add   type: 'local' }
+12 silly addLocalTarball shasum (computed) 5bac0162dbfcfd0c701b8d0848411a288c27a2c2
+13 verbose addTmpTarball C:\Users\Fahad\Desktop\iictproject\css\animate.css not in flight; adding
+14 verbose correctMkdir C:\Users\Fahad\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+15 verbose addTmpTarball validating metadata from C:\Users\Fahad\Desktop\iictproject\css\animate.css
+16 verbose tar unpack C:\Users\Fahad\Desktop\iictproject\css\animate.css
+17 verbose tar unpacking to C:\Users\Fahad\AppData\Local\Temp\npm-1396-7648ec62\unpack-2f61db0c
+18 silly gentlyRm C:\Users\Fahad\AppData\Local\Temp\npm-1396-7648ec62\unpack-2f61db0c is being purged
+19 verbose gentlyRm don't care about contents; nuking C:\Users\Fahad\AppData\Local\Temp\npm-1396-7648ec62\unpack-2f61db0c
+20 silly gunzTarPerm modes [ '777', '666' ]
+21 error not a package C:\Users\Fahad\Desktop\iictproject\css\animate.css
+22 error addLocal Could not install C:\Users\Fahad\Desktop\iictproject\css\animate.css
+23 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'C:\Users\Fahad\AppData\Local\Temp\npm-1396-7648ec62\unpack-2f61db0c\package.json'
+23 silly fetchPackageMetaData     at Error (native)
+23 silly fetchPackageMetaData  error for animate.css { Error: ENOENT: no such file or directory, open 'C:\Users\Fahad\AppData\Local\Temp\npm-1396-7648ec62\unpack-2f61db0c\package.json'
+23 silly fetchPackageMetaData     at Error (native)
+23 silly fetchPackageMetaData   errno: -4058,
+23 silly fetchPackageMetaData   code: 'ENOENT',
+23 silly fetchPackageMetaData   syscall: 'open',
+23 silly fetchPackageMetaData   path: 'C:\\Users\\Fahad\\AppData\\Local\\Temp\\npm-1396-7648ec62\\unpack-2f61db0c\\package.json' }
+24 silly rollbackFailedOptional Starting
+25 silly rollbackFailedOptional Finishing
+26 silly runTopLevelLifecycles Finishing
+27 silly install printInstalled
+28 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\Fahad\AppData\Local\Temp\npm-1396-7648ec62\unpack-2f61db0c\package.json'
+28 verbose stack     at Error (native)
+29 verbose cwd C:\Users\Fahad\Desktop\iictproject\css
+30 error Windows_NT 6.1.7600
+31 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "animate.css"
+32 error node v6.9.4
+33 error npm  v3.10.10
+34 error path C:\Users\Fahad\AppData\Local\Temp\npm-1396-7648ec62\unpack-2f61db0c\package.json
+35 error code ENOENT
+36 error errno -4058
+37 error syscall open
+38 error enoent ENOENT: no such file or directory, open 'C:\Users\Fahad\AppData\Local\Temp\npm-1396-7648ec62\unpack-2f61db0c\package.json'
+39 error enoent ENOENT: no such file or directory, open 'C:\Users\Fahad\AppData\Local\Temp\npm-1396-7648ec62\unpack-2f61db0c\package.json'
+39 error enoent This is most likely not a problem with npm itself
+39 error enoent and is related to npm not being able to find a file.
+40 verbose exit [ -4058, true ]
